@@ -8,49 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 30% 98%;
-    --foreground: 220 25% 15%;
+    --background: 0 0% 100%;
+    --foreground: 220 15% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card-foreground: 220 15% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
-    --primary: 215 85% 35%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 210 15% 75%;
-    --secondary-foreground: 220 25% 15%;
-    --muted: 210 20% 92%;
-    --muted-foreground: 220 15% 45%;
-    --accent: 215 75% 50%;
-    --accent-foreground: 0 0% 98%;
+    --popover-foreground: 220 15% 15%;
+    --primary: 210 100% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 200 10% 90%;
+    --secondary-foreground: 220 15% 15%;
+    --muted: 210 25% 95%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 30 100% 50%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
     --border: 210 20% 88%;
     --input: 210 20% 88%;
-    --ring: 215 85% 35%;
+    --ring: 210 100% 35%;
     --radius: 0.5rem;
     
-    /* Custom robotics theme colors */
-    --robo-blue: 215 85% 35%;
-    --robo-blue-light: 215 75% 50%;
-    --robo-blue-dark: 215 90% 25%;
-    --robo-silver: 210 15% 75%;
-    --robo-silver-light: 210 20% 92%;
-    --robo-metallic: 210 10% 60%;
-    --robo-glow: 215 100% 60%;
+    /* Mozi Tronics brand colors */
+    --mozi-blue: 210 100% 35%;
+    --mozi-blue-light: 210 100% 50%;
+    --mozi-blue-dark: 210 100% 25%;
+    --mozi-orange: 30 100% 50%;
+    --mozi-gray: 220 10% 50%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(215, 85%, 35%), hsl(215, 75%, 50%));
-    --gradient-hero: linear-gradient(180deg, hsl(220, 30%, 98%) 0%, hsl(210, 20%, 92%) 100%);
-    --gradient-glow: radial-gradient(circle, hsl(215, 100%, 60% / 0.15), transparent 70%);
+    --gradient-primary: linear-gradient(135deg, hsl(210, 100%, 35%), hsl(210, 100%, 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(30, 100%, 50%), hsl(30, 100%, 60%));
     
     /* Shadows */
-    --shadow-glow: 0 0 30px hsl(215, 100%, 60% / 0.3);
-    --shadow-card: 0 10px 40px -10px hsl(215, 85%, 35% / 0.2);
-    --shadow-elegant: 0 20px 50px -15px hsl(215, 85%, 35% / 0.25);
-    
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    --shadow-sm: 0 2px 8px hsl(210, 100%, 35% / 0.1);
+    --shadow-md: 0 4px 16px hsl(210, 100%, 35% / 0.15);
+    --shadow-lg: 0 8px 32px hsl(210, 100%, 35% / 0.2);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -63,29 +56,28 @@ All colors MUST be HSL.
   }
   
   .dark {
-    --background: 220 30% 8%;
-    --foreground: 210 20% 92%;
-    --card: 220 25% 12%;
-    --card-foreground: 210 20% 92%;
-    --popover: 220 25% 12%;
-    --popover-foreground: 210 20% 92%;
-    --primary: 215 75% 50%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 210 15% 25%;
-    --secondary-foreground: 210 20% 92%;
-    --muted: 220 20% 20%;
-    --muted-foreground: 210 15% 60%;
-    --accent: 215 75% 50%;
-    --accent-foreground: 0 0% 98%;
+    --background: 220 20% 10%;
+    --foreground: 0 0% 95%;
+    --card: 220 20% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 20% 12%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 10% 65%;
+    --accent: 30 100% 55%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 20% 20%;
-    --input: 220 20% 20%;
-    --ring: 215 75% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 210 100% 50%;
     
-    /* Dark mode adjustments */
-    --gradient-hero: linear-gradient(180deg, hsl(220, 30%, 8%) 0%, hsl(220, 25%, 12%) 100%);
-    --shadow-glow: 0 0 40px hsl(215, 100%, 60% / 0.4);
+    --gradient-primary: linear-gradient(135deg, hsl(210, 100%, 40%), hsl(210, 100%, 55%));
+    --shadow-lg: 0 8px 32px hsl(0, 0%, 0% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
