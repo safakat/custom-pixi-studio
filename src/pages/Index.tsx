@@ -4,6 +4,7 @@ import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package,
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import heroAutomation from "@/assets/hero-automation.png";
 
 const Index = () => {
   const capabilities = [
@@ -44,11 +45,12 @@ const Index = () => {
               Committed to Unlocking Our Nation's Automation Potential!
             </p>
             
-            <div className="h-64 bg-muted rounded-lg flex items-center justify-center my-8">
-              <div className="text-center">
-                <Factory className="h-24 w-24 text-muted-foreground mx-auto mb-4" />
-                <p className="text-muted-foreground">[Hero Image Placeholder]</p>
-              </div>
+            <div className="h-64 bg-muted rounded-lg overflow-hidden my-8">
+              <img 
+                src={heroAutomation} 
+                alt="Mozi Tronics Automation Equipment" 
+                className="w-full h-full object-cover opacity-30"
+              />
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
