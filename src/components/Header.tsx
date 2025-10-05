@@ -10,6 +10,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import moziLogo from "@/assets/mozi-logo.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,9 +44,12 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="h-10 w-40 bg-muted flex items-center justify-center rounded">
-              <span className="font-bold text-primary">MOZI TRONICS</span>
-            </div>
+            <img 
+              src={moziLogo} 
+              alt="Mozi Tronics Logo" 
+              className="h-12 w-12"
+            />
+            <span className="font-bold text-primary text-lg hidden sm:inline">MOZI TRONICS</span>
           </Link>
 
           {/* Desktop Navigation */}

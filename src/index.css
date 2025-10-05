@@ -9,36 +9,35 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 15% 15%;
+    --foreground: 155 40% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card-foreground: 155 40% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
-    --primary: 210 100% 35%;
+    --popover-foreground: 155 40% 15%;
+    --primary: 155 45% 25%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 200 10% 90%;
-    --secondary-foreground: 220 15% 15%;
-    --muted: 210 25% 95%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 30 100% 50%;
-    --accent-foreground: 0 0% 100%;
+    --secondary: 155 10% 90%;
+    --secondary-foreground: 155 40% 15%;
+    --muted: 155 15% 95%;
+    --muted-foreground: 155 10% 45%;
+    --accent: 80 60% 55%;
+    --accent-foreground: 155 40% 15%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 210 100% 35%;
+    --border: 155 15% 88%;
+    --input: 155 15% 88%;
+    --ring: 155 45% 25%;
     --radius: 0.5rem;
     
-    /* Mozi Tronics brand colors */
-    --mozi-blue: 210 100% 35%;
-    --mozi-blue-light: 210 100% 50%;
-    --mozi-blue-dark: 210 100% 25%;
-    --mozi-orange: 30 100% 50%;
-    --mozi-gray: 220 10% 50%;
+    /* Mozi Tronics brand colors - from logo */
+    --mozi-dark-green: 155 45% 25%;
+    --mozi-lime-green: 80 60% 55%;
+    --mozi-green-light: 80 50% 65%;
+    --mozi-green-dark: 155 50% 20%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210, 100%, 35%), hsl(210, 100%, 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(30, 100%, 50%), hsl(30, 100%, 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(155, 45%, 25%), hsl(80, 60%, 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(80, 60%, 55%), hsl(80, 50%, 65%));
     
     /* Shadows */
     --shadow-sm: 0 2px 8px hsl(210, 100%, 35% / 0.1);
@@ -56,27 +55,27 @@ All colors MUST be HSL.
   }
   
   .dark {
-    --background: 220 20% 10%;
+    --background: 155 25% 8%;
     --foreground: 0 0% 95%;
-    --card: 220 20% 12%;
+    --card: 155 25% 10%;
     --card-foreground: 0 0% 95%;
-    --popover: 220 20% 12%;
+    --popover: 155 25% 10%;
     --popover-foreground: 0 0% 95%;
-    --primary: 210 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 15% 20%;
+    --primary: 80 60% 55%;
+    --primary-foreground: 155 40% 15%;
+    --secondary: 155 20% 18%;
     --secondary-foreground: 0 0% 95%;
-    --muted: 220 15% 18%;
-    --muted-foreground: 220 10% 65%;
-    --accent: 30 100% 55%;
-    --accent-foreground: 0 0% 100%;
+    --muted: 155 20% 15%;
+    --muted-foreground: 155 10% 65%;
+    --accent: 80 60% 55%;
+    --accent-foreground: 155 40% 15%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 210 100% 50%;
+    --border: 155 20% 18%;
+    --input: 155 20% 18%;
+    --ring: 80 60% 55%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(210, 100%, 40%), hsl(210, 100%, 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(155, 45%, 30%), hsl(80, 60%, 50%));
     --shadow-lg: 0 8px 32px hsl(0, 0%, 0% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
