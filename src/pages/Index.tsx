@@ -50,7 +50,7 @@ const Index = () => {
               <img 
                 src={automationInfographic} 
                 alt="Mozi Tronics Automation Solutions - Robotics, Palletizing, Conveyors, and Smart Manufacturing" 
-                className="w-full h-auto"
+                className="w-full h-auto blur-sm opacity-80"
               />
             </div>
 
