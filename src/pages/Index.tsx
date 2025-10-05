@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package, Shield, Zap } from "lucide-react";
+import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package, Shield, Zap, Scale, Printer, Grid3x3, Cookie, Move, Layers, PackageOpen, Cpu, Grape } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import heroAutomation from "@/assets/hero-automation.png";
 
 const Index = () => {
   const capabilities = [
@@ -14,6 +13,21 @@ const Index = () => {
     { icon: LineChart, title: "Product Tracking & Traceability", description: "Full supply chain visibility" },
     { icon: Cloud, title: "Software, Cloud & Data Analytics", description: "Connected factory solutions" },
     { icon: Zap, title: "Intelligent Controllers & Vision", description: "AI-powered control systems" },
+  ];
+
+  const productsInfographic = [
+    { icon: Bot, title: "Pick & Place", color: "text-primary" },
+    { icon: Printer, title: "QR Printing", color: "text-accent" },
+    { icon: Boxes, title: "Palletizers", color: "text-primary" },
+    { icon: Scale, title: "Checkweighers", color: "text-accent" },
+    { icon: Cookie, title: "Biscuit Collator", color: "text-primary" },
+    { icon: Move, title: "Pack Diverter", color: "text-accent" },
+    { icon: Grid3x3, title: "Conveyors", color: "text-primary" },
+    { icon: PackageOpen, title: "Case Packer", color: "text-accent" },
+    { icon: Cpu, title: "Control Cards", color: "text-primary" },
+    { icon: Grape, title: "Food Processing", color: "text-accent" },
+    { icon: Layers, title: "IntelliLoad", color: "text-primary" },
+    { icon: LineChart, title: "Tracking Systems", color: "text-accent" },
   ];
 
   const industries = [
@@ -45,12 +59,23 @@ const Index = () => {
               Committed to Unlocking Our Nation's Automation Potential!
             </p>
             
-            <div className="h-64 bg-muted rounded-lg overflow-hidden my-8">
-              <img 
-                src={heroAutomation} 
-                alt="Mozi Tronics Automation Equipment" 
-                className="w-full h-full object-cover opacity-30"
-              />
+            {/* Products Infographic */}
+            <div className="my-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                {productsInfographic.map((product, index) => (
+                  <div
+                    key={index}
+                    className="group relative bg-card/50 backdrop-blur-sm border rounded-lg p-4 hover:bg-card hover:shadow-lg transition-all duration-300 animate-fade-in hover-scale"
+                    style={{ animationDelay: `${index * 0.05}s` }}
+                  >
+                    <div className="flex flex-col items-center justify-center space-y-2">
+                      <product.icon className={`h-8 w-8 ${product.color} group-hover:scale-110 transition-transform duration-300`} />
+                      <span className="text-xs font-medium text-center leading-tight">{product.title}</span>
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
