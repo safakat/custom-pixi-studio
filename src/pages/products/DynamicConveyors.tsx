@@ -27,6 +27,11 @@ const DynamicConveyors = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {/* Product Image */}
+              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
+                <span className="text-muted-foreground">[Product Image]</span>
+              </div>
+
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 Mozi Tronics' Dynamic Conveyors are engineered to ensure smooth, consistent, and reliable material handling across your production floor. Every conveyor is modular, adaptable, and customizable to match specific line speeds, load capacities, and hygiene standards.

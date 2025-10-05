@@ -27,6 +27,11 @@ const RotaryTurner = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {/* Product Image */}
+              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
+                <span className="text-muted-foreground">[Product Image]</span>
+              </div>
+
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 A compact, high-precision Rotary Disc Turner engineered to rotate or reorient products smoothly and safely. Perfect for products requiring inspection, coating, or orientation before secondary processing.

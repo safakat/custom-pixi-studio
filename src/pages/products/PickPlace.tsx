@@ -27,6 +27,11 @@ const PickPlace = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {/* Product Image */}
+              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
+                <span className="text-muted-foreground">[Product Image]</span>
+              </div>
+
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 Mozi Tronics Pick & Place Systems deliver precision, flexibility, and speed for handling, sorting, and placement operations. Each system uses servo- or robotic-arm technology to move products between conveyors, trays, or cartons with unmatched accuracy.

@@ -27,6 +27,11 @@ const AutoCasePacker = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {/* Product Image */}
+              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
+                <span className="text-muted-foreground">[Product Image]</span>
+              </div>
+
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-8">
                 The Mozi Tronics Auto Case Packer (ACP) is an advanced, servo-driven, end-of-line packaging system designed for high-speed, precision-controlled carton packing. Built for biscuit, noodle, and overwrap pack applications, it streamlines manual packing operations with automated collation, orientation, and carton loading mechanisms.

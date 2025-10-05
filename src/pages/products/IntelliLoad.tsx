@@ -27,6 +27,11 @@ const IntelliLoad = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {/* Product Image */}
+              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
+                <span className="text-muted-foreground">[Product Image]</span>
+              </div>
+
               <div className="flex items-center space-x-4 mb-6">
                 <Smartphone className="h-12 w-12 text-accent" />
                 <h2 className="text-3xl font-bold">Overview</h2>
