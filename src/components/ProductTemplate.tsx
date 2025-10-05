@@ -16,7 +16,7 @@ interface ProductTemplateProps {
 
 const ProductTemplate = ({ title, subtitle, overview, features, benefits, specs }: ProductTemplateProps) => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen automation-backdrop circuit-pattern">
       <Header />
       
       <section className="bg-gradient-to-br from-primary/10 via-background to-accent/10 py-12">

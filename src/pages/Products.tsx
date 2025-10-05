@@ -94,7 +94,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen automation-backdrop circuit-pattern">
       <Header />
       
       {/* Hero */}

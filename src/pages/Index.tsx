@@ -20,7 +20,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen automation-backdrop circuit-pattern">
       <Header />
       
       {/* Hero Section */}
@@ -28,8 +28,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <div className="inline-block">
-              <div className="bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                <Award className="inline-block h-4 w-4 mr-2" />
+              <div className="award-badge bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-bold mb-4 shadow-lg">
+                <Award className="inline-block h-8 w-8 mr-3" />
                 PACMACHINE 2024 Winner - Indian Institute of Packaging
               </div>
             </div>
