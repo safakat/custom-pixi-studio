@@ -90,9 +90,11 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        [Your Complete Address]<br />
-                        [City, State, PIN]<br />
-                        India
+                        Mozi Tronics<br />
+                        45/1, BBD Road,<br />
+                        Hindmotor, Hooghly,<br />
+                        West Bengal, Pin: 712233<br />
+                        Kolkata, India
                       </p>
                     </div>
                   </div>
@@ -102,8 +104,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
                       <p className="text-muted-foreground">
-                        +91 XXXXX XXXXX<br />
-                        +91 XXXXX XXXXX
+                        +91 7044341414
                       </p>
                     </div>
                   </div>
