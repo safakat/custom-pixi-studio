@@ -159,7 +159,10 @@ const Index = () => {
             <Button size="lg" variant="secondary" asChild>
               <Link to="/products">View All Products</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
+              <Link to="/solutions">Explore Solutions</Link>
+            </Button>
+            <Button size="lg" variant="outline" className="border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
               <Link to="/contact">Contact Us Today</Link>
             </Button>
           </div>
