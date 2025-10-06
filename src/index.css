@@ -9,44 +9,43 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 155 45% 12%;
+    --foreground: 140 50% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 155 45% 12%;
+    --card-foreground: 140 50% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 155 45% 12%;
-    --primary: 155 65% 35%;
+    --popover-foreground: 140 50% 15%;
+    --primary: 140 50% 25%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 210 85% 50%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 155 20% 96%;
-    --muted-foreground: 155 15% 42%;
-    --accent: 35 95% 55%;
-    --accent-foreground: 0 0% 100%;
+    --secondary: 75 50% 55%;
+    --secondary-foreground: 140 50% 15%;
+    --muted: 140 20% 96%;
+    --muted-foreground: 140 15% 42%;
+    --accent: 75 50% 55%;
+    --accent-foreground: 140 50% 15%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --border: 155 20% 85%;
-    --input: 155 20% 85%;
-    --ring: 155 65% 35%;
+    --border: 140 20% 85%;
+    --input: 140 20% 85%;
+    --ring: 140 50% 25%;
     --radius: 0.5rem;
     
-    /* Mozi Tronics vibrant brand colors */
-    --mozi-primary-green: 155 65% 35%;
-    --mozi-electric-lime: 80 85% 55%;
-    --mozi-sky-blue: 210 85% 50%;
-    --mozi-vibrant-orange: 35 95% 55%;
-    --mozi-deep-teal: 175 70% 30%;
+    /* Mozi Tronics logo colors */
+    --mozi-forest-green: 140 50% 25%;
+    --mozi-lime-green: 75 50% 55%;
+    --mozi-dark-green: 140 55% 20%;
+    --mozi-light-lime: 75 45% 65%;
     
-    /* Vibrant Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(155, 65%, 35%), hsl(80, 85%, 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(210, 85%, 50%), hsl(175, 70%, 30%));
-    --gradient-warm: linear-gradient(135deg, hsl(35, 95%, 55%), hsl(15, 90%, 60%));
-    --gradient-hero: linear-gradient(120deg, hsl(155, 65%, 35%), hsl(80, 85%, 55%), hsl(210, 85%, 50%));
+    /* Logo-matched Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(140, 50%, 25%), hsl(75, 50%, 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(75, 50%, 55%), hsl(75, 45%, 65%));
+    --gradient-warm: linear-gradient(135deg, hsl(140, 50%, 25%), hsl(140, 55%, 30%));
+    --gradient-hero: linear-gradient(120deg, hsl(140, 50%, 25%), hsl(75, 50%, 55%), hsl(140, 55%, 30%));
     
     /* Enhanced Shadows */
-    --shadow-sm: 0 2px 8px hsl(155, 65%, 35% / 0.15);
-    --shadow-md: 0 4px 16px hsl(155, 65%, 35% / 0.2);
-    --shadow-lg: 0 8px 32px hsl(155, 65%, 35% / 0.25);
-    --shadow-colored: 0 10px 40px hsl(80, 85%, 55% / 0.3);
+    --shadow-sm: 0 2px 8px hsl(140, 50%, 25% / 0.15);
+    --shadow-md: 0 4px 16px hsl(140, 50%, 25% / 0.2);
+    --shadow-lg: 0 8px 32px hsl(140, 50%, 25% / 0.25);
+    --shadow-colored: 0 10px 40px hsl(75, 50%, 55% / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -59,32 +58,32 @@ All colors MUST be HSL.
   }
   
   .dark {
-    --background: 155 30% 8%;
+    --background: 140 30% 8%;
     --foreground: 0 0% 98%;
-    --card: 155 25% 12%;
+    --card: 140 25% 12%;
     --card-foreground: 0 0% 98%;
-    --popover: 155 25% 12%;
+    --popover: 140 25% 12%;
     --popover-foreground: 0 0% 98%;
-    --primary: 80 85% 60%;
-    --primary-foreground: 155 45% 10%;
-    --secondary: 210 85% 55%;
+    --primary: 75 50% 55%;
+    --primary-foreground: 140 50% 15%;
+    --secondary: 140 50% 25%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 155 20% 18%;
-    --muted-foreground: 155 10% 70%;
-    --accent: 35 95% 60%;
-    --accent-foreground: 0 0% 100%;
+    --muted: 140 20% 18%;
+    --muted-foreground: 140 10% 70%;
+    --accent: 75 50% 55%;
+    --accent-foreground: 140 50% 15%;
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
-    --border: 155 25% 20%;
-    --input: 155 25% 20%;
-    --ring: 80 85% 60%;
+    --border: 140 25% 20%;
+    --input: 140 25% 20%;
+    --ring: 75 50% 55%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(155, 65%, 35%), hsl(80, 85%, 60%));
-    --gradient-accent: linear-gradient(135deg, hsl(210, 85%, 55%), hsl(175, 70%, 35%));
-    --gradient-warm: linear-gradient(135deg, hsl(35, 95%, 60%), hsl(15, 90%, 65%));
-    --gradient-hero: linear-gradient(120deg, hsl(155, 65%, 35%), hsl(80, 85%, 60%), hsl(210, 85%, 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(140, 50%, 25%), hsl(75, 50%, 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(75, 50%, 55%), hsl(75, 45%, 65%));
+    --gradient-warm: linear-gradient(135deg, hsl(140, 50%, 30%), hsl(140, 55%, 35%));
+    --gradient-hero: linear-gradient(120deg, hsl(140, 50%, 25%), hsl(75, 50%, 55%), hsl(140, 55%, 30%));
     --shadow-lg: 0 8px 32px hsl(0, 0%, 0% / 0.6);
-    --shadow-colored: 0 10px 40px hsl(80, 85%, 60% / 0.4);
+    --shadow-colored: 0 10px 40px hsl(75, 50%, 55% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -143,29 +142,29 @@ All colors MUST be HSL.
   
   .automation-backdrop {
     background-image: 
-      linear-gradient(hsl(155 45% 25% / 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(155 45% 25% / 0.03) 1px, transparent 1px),
-      linear-gradient(hsl(155 45% 25% / 0.02) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(155 45% 25% / 0.02) 1px, transparent 1px);
+      linear-gradient(hsl(140 50% 25% / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(140 50% 25% / 0.03) 1px, transparent 1px),
+      linear-gradient(hsl(140 50% 25% / 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(140 50% 25% / 0.02) 1px, transparent 1px);
     background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   }
   
   .dark .automation-backdrop {
     background-image: 
-      linear-gradient(hsl(80 60% 55% / 0.05) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(80 60% 55% / 0.05) 1px, transparent 1px),
-      linear-gradient(hsl(80 60% 55% / 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(80 60% 55% / 0.03) 1px, transparent 1px);
+      linear-gradient(hsl(75 50% 55% / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(75 50% 55% / 0.05) 1px, transparent 1px),
+      linear-gradient(hsl(75 50% 55% / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(75 50% 55% / 0.03) 1px, transparent 1px);
     background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   }
   
   .circuit-pattern {
     background-image: 
-      radial-gradient(circle at 25% 50%, hsl(155 65% 35% / 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 75% 50%, hsl(80 85% 55% / 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 50% 25%, hsl(210 85% 50% / 0.06) 0%, transparent 50%);
+      radial-gradient(circle at 25% 50%, hsl(140 50% 25% / 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 75% 50%, hsl(75 50% 55% / 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 50% 25%, hsl(140 55% 30% / 0.06) 0%, transparent 50%);
     background-size: 200% 200%;
     animation: circuit-glow 15s ease-in-out infinite;
   }
@@ -187,11 +186,11 @@ All colors MUST be HSL.
   @keyframes award-pulse {
     0%, 100% { 
       transform: scale(1);
-      box-shadow: 0 0 0 0 hsl(80 85% 55% / 0.4);
+      box-shadow: 0 0 0 0 hsl(75 50% 55% / 0.4);
     }
     50% { 
       transform: scale(1.05);
-      box-shadow: 0 0 20px 5px hsl(80 85% 55% / 0.2);
+      box-shadow: 0 0 20px 5px hsl(75 50% 55% / 0.2);
     }
   }
   
