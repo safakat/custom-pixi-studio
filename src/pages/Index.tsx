@@ -164,22 +164,22 @@ const Index = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-w-6xl mx-auto items-center">
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={itcLogo} alt="ITC Limited" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={itcLogo} alt="ITC Limited" className="max-w-full max-h-full object-contain transition-all" />
             </div>
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={britaniaLogo} alt="Britannia Industries" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={britaniaLogo} alt="Britannia Industries" className="max-w-full max-h-full object-contain transition-all" />
             </div>
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={pepsicoLogo} alt="PepsiCo India" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={pepsicoLogo} alt="PepsiCo India" className="max-w-full max-h-full object-contain transition-all" />
             </div>
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={anmolLogo} alt="Anmol Biscuits" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={anmolLogo} alt="Anmol Biscuits" className="max-w-full max-h-full object-contain transition-all" />
             </div>
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={priyagoldLogo} alt="Priya Gold Biscuits" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={priyagoldLogo} alt="Priya Gold Biscuits" className="max-w-full max-h-full object-contain transition-all" />
             </div>
             <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
-              <img src={gmpDairyLogo} alt="GMP Dairy, Auckland, New Zealand" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={gmpDairyLogo} alt="GMP Dairy, Auckland, New Zealand" className="max-w-full max-h-full object-contain transition-all" />
             </div>
           </div>
         </div>
