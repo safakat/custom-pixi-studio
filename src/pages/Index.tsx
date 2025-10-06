@@ -204,7 +204,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <Button asChild className="w-full" size="lg">
-                  <a href="/downloads/Mozi-Product-Catalogue.pdf" download>
+                  <a href="/Mozi-Product-Catalogue.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download Catalogue (PDF)
                   </a>
@@ -222,7 +222,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <Button asChild className="w-full" size="lg">
-                  <a href="/downloads/Mozi-Flyer.pdf" download>
+                  <a href="/Mozi-Flyer.pdf" download>
                     <Download className="mr-2 h-5 w-5" />
                     Download Flyer (PDF)
                   </a>
