@@ -12,9 +12,11 @@ interface ProductTemplateProps {
   features: string[];
   benefits: string[];
   specs?: { label: string; value: string }[];
+  images?: string[];
+  videos?: string[];
 }
 
-const ProductTemplate = ({ title, subtitle, overview, features, benefits, specs }: ProductTemplateProps) => {
+const ProductTemplate = ({ title, subtitle, overview, features, benefits, specs, images, videos }: ProductTemplateProps) => {
   return (
     <div className="min-h-screen automation-backdrop circuit-pattern">
       <Header />
@@ -80,6 +82,46 @@ const ProductTemplate = ({ title, subtitle, overview, features, benefits, specs 
               </CardContent>
             </Card>
           </div>
+
+          {videos && videos.length > 0 && (
+            <Card className="mb-8">
+              <CardHeader><CardTitle>Product Videos</CardTitle></CardHeader>
+              <CardContent>
+                <div className="grid md:grid-cols-2 gap-6">
+                  {videos.map((video, i) => (
+                    <div key={i} className="aspect-video rounded-lg overflow-hidden bg-muted">
+                      <iframe
+                        src={video}
+                        className="w-full h-full"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title={`Product video ${i + 1}`}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {images && images.length > 0 && (
+            <Card className="mb-8">
+              <CardHeader><CardTitle>Product Images</CardTitle></CardHeader>
+              <CardContent>
+                <div className="grid md:grid-cols-3 gap-4">
+                  {images.map((image, i) => (
+                    <div key={i} className="aspect-square rounded-lg overflow-hidden bg-muted">
+                      <img
+                        src={image}
+                        alt={`Product image ${i + 1}`}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
           <div className="text-center">
             <Button size="lg" asChild>
