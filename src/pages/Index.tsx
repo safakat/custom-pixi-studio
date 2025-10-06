@@ -4,7 +4,7 @@ import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package,
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import heroAutomation from "@/assets/hero-automation-new.jpg";
+import heroAutomation from "@/assets/hero-sophisticated.jpg";
 
 const Index = () => {
   const capabilities = [
@@ -25,33 +25,36 @@ const Index = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 py-20">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 py-20 overflow-hidden">
+        <div className="absolute inset-0 shimmer-effect opacity-50"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <div className="inline-block">
+            <div className="inline-block float-animation">
               <div className="award-badge bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-bold mb-4 shadow-lg">
                 <Award className="inline-block h-8 w-8 mr-3" />
                 PACMACHINE 2024 Winner - Indian Institute of Packaging
               </div>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold">
+            <h1 className="text-5xl md:text-6xl font-bold animate-fade-in">
               MOZI TRONICS
             </h1>
-            <p className="text-2xl md:text-3xl font-semibold text-primary">
+            <p className="text-2xl md:text-3xl font-semibold text-primary animate-fade-in">
               Innovating Your Automation Journey
             </p>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground animate-fade-in">
               Committed to Unlocking Our Nation's Automation Potential!
             </p>
             
-            {/* Hero Image */}
-            <div className="my-8 rounded-xl overflow-hidden shadow-2xl animate-fade-in">
+            {/* Hero Image with Animation */}
+            <div className="relative my-8 rounded-xl overflow-hidden shadow-2xl group">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
               <img 
                 src={heroAutomation} 
                 alt="Modern industrial automation factory with robotic systems and advanced technology by Mozi Tronics" 
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
               />
+              <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background/80 to-transparent z-10"></div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
@@ -95,7 +98,7 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {capabilities.map((capability, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
+              <Card key={index} className="vibrant-card">
                 <CardHeader>
                   <capability.icon className="h-12 w-12 text-primary mb-4" />
                   <CardTitle className="text-xl">{capability.title}</CardTitle>
