@@ -49,15 +49,15 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>[Your Address Here]</span>
+                <span>45/1, BBD Road, Hindmotor, Hooghly, West Bengal, Pin: 712233, India</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>[Your Phone Number]</span>
+                <span>+91 7044341414</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>[Your Email]</span>
+                <span>info@mozitronics.com</span>
               </div>
             </div>
           </div>
