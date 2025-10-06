@@ -4,7 +4,7 @@ import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package,
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import automationInfographic from "@/assets/automation-infographic.jpg";
+import heroAutomation from "@/assets/hero-automation-new.jpg";
 
 const Index = () => {
   const capabilities = [
@@ -45,12 +45,12 @@ const Index = () => {
               Committed to Unlocking Our Nation's Automation Potential!
             </p>
             
-            {/* Automation Infographic */}
+            {/* Hero Image */}
             <div className="my-8 rounded-xl overflow-hidden shadow-2xl animate-fade-in">
               <img 
-                src={automationInfographic} 
-                alt="Mozi Tronics Automation Solutions - Robotics, Palletizing, Conveyors, and Smart Manufacturing" 
-                className="w-full h-auto blur-sm opacity-80"
+                src={heroAutomation} 
+                alt="Modern industrial automation factory with robotic systems and advanced technology by Mozi Tronics" 
+                className="w-full h-auto object-cover"
               />
             </div>
 
