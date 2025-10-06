@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Database, Cloud, BarChart3, Lock, Settings, Cpu } from "lucide-react";
+import softwareCloudImg from "@/assets/software-cloud.jpg";
 
 const SoftwareCloud = () => {
   return (
@@ -27,6 +28,15 @@ const SoftwareCloud = () => {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
+              {/* Hero Image */}
+              <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
+                <img 
+                  src={softwareCloudImg} 
+                  alt="Software & Cloud Solutions - Industrial automation and data analytics platform" 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-6">
                 At Mozi Tronics, we believe that the future of manufacturing lies in the seamless integration of automation and information.

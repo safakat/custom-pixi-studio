@@ -4,6 +4,7 @@ import { CheckCircle2, QrCode } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import productTrackingImg from "@/assets/product-tracking.jpg";
 
 const ProductTracking = () => {
   return (
@@ -21,8 +22,12 @@ const ProductTracking = () => {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="h-96 bg-muted rounded-lg flex items-center justify-center">
-              <QrCode className="h-24 w-24 text-muted-foreground" />
+            <div className="h-96 rounded-lg overflow-hidden shadow-xl group">
+              <img 
+                src={productTrackingImg} 
+                alt="Product Tracking & Tracing Solutions - QR code scanning and digital tracking" 
+                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div>
               <h2 className="text-2xl font-bold mb-4">Overview</h2>

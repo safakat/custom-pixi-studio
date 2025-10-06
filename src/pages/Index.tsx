@@ -8,12 +8,12 @@ import heroAutomation from "@/assets/hero-sophisticated.jpg";
 
 const Index = () => {
   const capabilities = [
-    { icon: Package, title: "End-of-Line Automation", description: "Complete packaging line solutions" },
-    { icon: Bot, title: "Robotic Systems & Gantry Palletizers", description: "Advanced robotic automation" },
-    { icon: Cog, title: "Smart Conveying & Handling", description: "Intelligent material transport" },
-    { icon: LineChart, title: "Product Tracking & Traceability", description: "Full supply chain visibility" },
-    { icon: Cloud, title: "Software, Cloud & Data Analytics", description: "Connected factory solutions" },
-    { icon: Zap, title: "Intelligent Controllers & Vision", description: "AI-powered control systems" },
+    { icon: Package, title: "End-of-Line Automation", description: "Complete packaging line solutions", link: "/products" },
+    { icon: Bot, title: "Robotic Systems & Gantry Palletizers", description: "Advanced robotic automation", link: "/products/robotic-palletizer" },
+    { icon: Cog, title: "Smart Conveying & Handling", description: "Intelligent material transport", link: "/products/dynamic-conveyors" },
+    { icon: LineChart, title: "Product Tracking & Traceability", description: "Full supply chain visibility", link: "/solutions/product-tracking" },
+    { icon: Cloud, title: "Software, Cloud & Data Analytics", description: "Connected factory solutions", link: "/solutions/software-cloud" },
+    { icon: Zap, title: "Intelligent Controllers & Vision", description: "AI-powered control systems", link: "/products/control-cards" },
   ];
 
   const industries = [
@@ -98,15 +98,17 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {capabilities.map((capability, index) => (
-              <Card key={index} className="vibrant-card">
-                <CardHeader>
-                  <capability.icon className="h-12 w-12 text-primary mb-4" />
-                  <CardTitle className="text-xl">{capability.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base">{capability.description}</CardDescription>
-                </CardContent>
-              </Card>
+              <Link key={index} to={capability.link}>
+                <Card className="vibrant-card h-full cursor-pointer">
+                  <CardHeader>
+                    <capability.icon className="h-12 w-12 text-primary mb-4" />
+                    <CardTitle className="text-xl">{capability.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-base">{capability.description}</CardDescription>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
