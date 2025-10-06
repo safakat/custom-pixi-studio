@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
+import dynamicConveyorsImg from "@/assets/dynamic-conveyors.jpg";
 
 const DynamicConveyors = () => {
   return (
@@ -28,8 +29,12 @@ const DynamicConveyors = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {/* Product Image */}
-              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
-                <span className="text-muted-foreground">[Product Image]</span>
+              <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
+                <img 
+                  src={dynamicConveyorsImg} 
+                  alt="Dynamic Conveyors - Modular material handling system" 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
 
               <h2 className="text-3xl font-bold mb-6">Overview</h2>

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import autoCasePackerImg from "@/assets/auto-case-packer-collage.jpg";
+import autoCasePackerImg from "@/assets/auto-case-packer-hero.jpg";
 import checkweigherImg from "@/assets/checkweigher-machine.jpg";
 import dynamicConveyorsImg from "@/assets/dynamic-conveyors.jpg";
 import fastbackFeederImg from "@/assets/fastback-feeder.jpg";

@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, QrCode } from "lucide-react";
+import qrPrintingImg from "@/assets/qr-printing.jpg";
 
 const QRPrinting = () => {
   return (
@@ -28,8 +29,12 @@ const QRPrinting = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {/* Product Image */}
-              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
-                <span className="text-muted-foreground">[Product Image]</span>
+              <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
+                <img 
+                  src={qrPrintingImg} 
+                  alt="QR-Based Printing Solutions - Advanced traceability system" 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
 
               <div className="flex items-center space-x-4 mb-6">

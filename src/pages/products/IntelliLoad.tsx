@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Smartphone } from "lucide-react";
+import intelliLoadImg from "@/assets/intelli-load.jpg";
 
 const IntelliLoad = () => {
   return (
@@ -28,8 +29,12 @@ const IntelliLoad = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {/* Product Image */}
-              <div className="h-96 bg-muted rounded-lg flex items-center justify-center mb-8">
-                <span className="text-muted-foreground">[Product Image]</span>
+              <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
+                <img 
+                  src={intelliLoadImg} 
+                  alt="Intelli Load System - Smart truck loading and tracking" 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
 
               <div className="flex items-center space-x-4 mb-6">
