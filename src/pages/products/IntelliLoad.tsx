@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Smartphone } from "lucide-react";
 import intelliLoadImg from "@/assets/intelli-load-soft.jpg";
+import MediaGallery from "@/components/MediaGallery";
 
 const IntelliLoad = () => {
   return (
@@ -90,6 +91,9 @@ const IntelliLoad = () => {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* Media Gallery */}
+              <MediaGallery />
 
               {/* CTA */}
               <div className="mt-12 text-center">

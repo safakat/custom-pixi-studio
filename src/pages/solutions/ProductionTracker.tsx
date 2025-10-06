@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import productionTrackerImg from "@/assets/production-tracker-soft.jpg";
+import MediaGallery from "@/components/MediaGallery";
 
 const ProductionTracker = () => {
   return (
@@ -123,6 +124,9 @@ const ProductionTracker = () => {
               </ul>
             </CardContent>
           </Card>
+
+          {/* Media Gallery */}
+          <MediaGallery />
 
           <div className="mt-12 text-center">
             <Button size="lg" asChild>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import checkweigherImg from "@/assets/checkweigher-soft.jpg";
+import MediaGallery from "@/components/MediaGallery";
 
 const Checkweigher = () => {
   return (
@@ -91,6 +92,9 @@ const Checkweigher = () => {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* Media Gallery */}
+              <MediaGallery />
 
               {/* CTA */}
               <div className="mt-12 text-center">
