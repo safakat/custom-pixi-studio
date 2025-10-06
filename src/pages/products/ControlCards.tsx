@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Shield, Eye, AlertTriangle } from "lucide-react";
-import controlCardsImg from "@/assets/control-cards.jpg";
+import controlCardsImg from "@/assets/control-cards-soft.jpg";
 
 const ControlCards = () => {
   return (

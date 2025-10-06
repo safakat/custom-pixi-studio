@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Database, Cloud, BarChart3, Lock, Settings, Cpu } from "lucide-react";
-import softwareCloudImg from "@/assets/software-cloud.jpg";
+import softwareCloudImg from "@/assets/software-cloud-soft.jpg";
 
 const SoftwareCloud = () => {
   return (

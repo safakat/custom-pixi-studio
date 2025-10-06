@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import fastbackFeederImg from "@/assets/fastback-feeder.jpg";
+import fastbackFeederImg from "@/assets/fastback-feeder-soft.jpg";
 
 const FastbackFeeder = () => {
   return (

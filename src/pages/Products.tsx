@@ -4,20 +4,20 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import autoCasePackerImg from "@/assets/auto-case-packer-hero.jpg";
-import checkweigherImg from "@/assets/checkweigher-machine.jpg";
-import dynamicConveyorsImg from "@/assets/dynamic-conveyors.jpg";
-import fastbackFeederImg from "@/assets/fastback-feeder.jpg";
-import potatoHalverImg from "@/assets/potato-halver.jpg";
-import packDiverterImg from "@/assets/pack-diverter.jpg";
-import rotaryTurnerImg from "@/assets/rotary-turner.jpg";
-import controlCardsImg from "@/assets/control-cards.jpg";
-import qrPrintingImg from "@/assets/qr-printing.jpg";
-import biscuitCollatorImg from "@/assets/biscuit-collator.jpg";
-import intelliLoadImg from "@/assets/intelli-load.jpg";
-import roboticPalletizerImg from "@/assets/robotic-palletizer.jpg";
-import chocolateCountingImg from "@/assets/chocolate-counting.jpg";
-import pickPlaceImg from "@/assets/pick-place.jpg";
+import autoCasePackerImg from "@/assets/auto-case-packer-soft.jpg";
+import checkweigherImg from "@/assets/checkweigher-soft.jpg";
+import dynamicConveyorsImg from "@/assets/dynamic-conveyors-soft.jpg";
+import fastbackFeederImg from "@/assets/fastback-feeder-soft.jpg";
+import potatoHalverImg from "@/assets/potato-halver-soft.jpg";
+import packDiverterImg from "@/assets/pack-diverter-soft.jpg";
+import rotaryTurnerImg from "@/assets/rotary-turner-soft.jpg";
+import controlCardsImg from "@/assets/control-cards-soft.jpg";
+import qrPrintingImg from "@/assets/qr-printing-soft.jpg";
+import biscuitCollatorImg from "@/assets/biscuit-collator-soft.jpg";
+import intelliLoadImg from "@/assets/intelli-load-soft.jpg";
+import roboticPalletizerImg from "@/assets/robotic-palletizer-soft.jpg";
+import chocolateCountingImg from "@/assets/chocolate-counting-soft.jpg";
+import pickPlaceImg from "@/assets/pick-place-soft.jpg";
 
 const Products = () => {
   const products = [

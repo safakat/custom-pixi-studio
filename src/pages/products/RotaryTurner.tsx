@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import rotaryTurnerImg from "@/assets/rotary-turner.jpg";
+import rotaryTurnerImg from "@/assets/rotary-turner-soft.jpg";
 
 const RotaryTurner = () => {
   return (

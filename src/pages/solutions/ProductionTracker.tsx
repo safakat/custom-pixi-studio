@@ -4,7 +4,7 @@ import { CheckCircle2, LineChart } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import productionTrackerImg from "@/assets/production-tracker.jpg";
+import productionTrackerImg from "@/assets/production-tracker-soft.jpg";
 
 const ProductionTracker = () => {
   return (

@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, QrCode } from "lucide-react";
-import qrPrintingImg from "@/assets/qr-printing.jpg";
+import qrPrintingImg from "@/assets/qr-printing-soft.jpg";
 
 const QRPrinting = () => {
   return (

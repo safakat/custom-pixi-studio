@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import packDiverterImg from "@/assets/pack-diverter.jpg";
+import packDiverterImg from "@/assets/pack-diverter-soft.jpg";
 
 const PackDiverter = () => {
   return (

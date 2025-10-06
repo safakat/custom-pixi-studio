@@ -4,7 +4,7 @@ import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package,
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import heroAutomation from "@/assets/hero-sophisticated.jpg";
+import heroAutomation from "@/assets/hero-soft-green.jpg";
 
 const Index = () => {
   const capabilities = [

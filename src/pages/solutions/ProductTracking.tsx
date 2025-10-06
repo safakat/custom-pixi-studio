@@ -4,7 +4,7 @@ import { CheckCircle2, QrCode } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import productTrackingImg from "@/assets/product-tracking.jpg";
+import productTrackingImg from "@/assets/product-tracking-soft.jpg";
 
 const ProductTracking = () => {
   return (
