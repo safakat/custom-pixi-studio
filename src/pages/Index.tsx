@@ -1,10 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, LineChart, Package, Shield, Zap } from "lucide-react";
+import { ArrowRight, Award, Bot, Boxes, Cloud, Cog, Factory, FileText, LineChart, Package, Shield, Zap, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroAutomation from "@/assets/hero-soft-green.jpg";
+import itcLogo from "@/assets/customers/itc-logo.png";
+import britaniaLogo from "@/assets/customers/britannia-logo.png";
+import pepsicoLogo from "@/assets/customers/pepsico-logo.png";
+import anmolLogo from "@/assets/customers/anmol-logo.png";
+import priyagoldLogo from "@/assets/customers/priyagold-logo.png";
+import gmpDairyLogo from "@/assets/customers/gmp-dairy-logo.png";
 
 const Index = () => {
   const capabilities = [
@@ -145,6 +151,85 @@ const Index = () => {
               </p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Trusted by Industry Leaders */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Industry Leaders</h2>
+            <p className="text-lg text-muted-foreground">Proud to serve leading companies across the globe</p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-w-6xl mx-auto items-center">
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={itcLogo} alt="ITC Limited" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={britaniaLogo} alt="Britannia Industries" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={pepsicoLogo} alt="PepsiCo India" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={anmolLogo} alt="Anmol Biscuits" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={priyagoldLogo} alt="Priya Gold Biscuits" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center aspect-square">
+              <img src={gmpDairyLogo} alt="GMP Dairy, Auckland, New Zealand" className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Resources & Downloads */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Resources & Downloads</h2>
+            <p className="text-lg text-muted-foreground">Download our product catalogues and marketing materials</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="vibrant-card">
+              <CardHeader>
+                <FileText className="h-12 w-12 text-primary mb-4" />
+                <CardTitle className="text-2xl">Product Catalogue</CardTitle>
+                <CardDescription>
+                  Comprehensive overview of all our automation solutions with detailed specifications
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button asChild className="w-full" size="lg">
+                  <a href="/downloads/Mozi-Product-Catalogue.pdf" download>
+                    <Download className="mr-2 h-5 w-5" />
+                    Download Catalogue (PDF)
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="vibrant-card">
+              <CardHeader>
+                <FileText className="h-12 w-12 text-primary mb-4" />
+                <CardTitle className="text-2xl">Company Flyer</CardTitle>
+                <CardDescription>
+                  Quick overview of Mozi Tronics capabilities and key offerings
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button asChild className="w-full" size="lg">
+                  <a href="/downloads/Mozi-Flyer.pdf" download>
+                    <Download className="mr-2 h-5 w-5" />
+                    Download Flyer (PDF)
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
