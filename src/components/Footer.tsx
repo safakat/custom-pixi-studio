@@ -28,6 +28,7 @@ const Footer = () => {
               <li><Link to="/products" className="hover:text-primary transition-colors">Products</Link></li>
               <li><Link to="/solutions" className="hover:text-primary transition-colors">Solutions</Link></li>
               <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link to="/careers" className="hover:text-primary transition-colors">Careers</Link></li>
             </ul>
           </div>
 
@@ -63,7 +64,18 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
+        {/* Hiring CTA */}
+        <div className="border-t mt-8 pt-8">
+          <div className="text-center mb-6">
+            <h4 className="text-lg font-semibold mb-2">We're Hiring Innovators.</h4>
+            <p className="text-muted-foreground mb-4">Shape the Future of Automation with MoziTronics.</p>
+            <Link to="/careers" className="text-primary hover:underline font-medium">
+              View Careers →
+            </Link>
+          </div>
+        </div>
+
+        <div className="border-t pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; 2025 Mozi Tronics. All rights reserved. | Committed to unlocking our nation's automation potential</p>
         </div>
       </div>

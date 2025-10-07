@@ -110,6 +110,9 @@ const Header = () => {
             <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
               Contact
             </Link>
+            <Link to="/careers" className="text-sm font-medium hover:text-primary transition-colors">
+              Careers
+            </Link>
           </nav>
 
           <div className="hidden md:block">
@@ -164,6 +167,13 @@ const Header = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
+            </Link>
+            <Link
+              to="/careers"
+              className="block py-2 text-sm font-medium hover:text-primary"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Careers
             </Link>
           </div>
         )}

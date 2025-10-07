@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import Solutions from "./pages/Solutions";
+import Careers from "./pages/Careers";
 import AutoCasePacker from "./pages/products/AutoCasePacker";
 import Checkweigher from "./pages/products/Checkweigher";
 import DynamicConveyors from "./pages/products/DynamicConveyors";
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/products/auto-case-packer" element={<AutoCasePacker />} />
           <Route path="/products/checkweigher" element={<Checkweigher />} />
           <Route path="/products/dynamic-conveyors" element={<DynamicConveyors />} />
