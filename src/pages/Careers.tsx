@@ -3,6 +3,11 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import careersHero from "@/assets/careers-hero.jpg";
+import teamRobotics from "@/assets/team-robotics.jpg";
+import teamSoftware from "@/assets/team-software.jpg";
+import teamTraining from "@/assets/team-training.jpg";
+import teamInstallation from "@/assets/team-installation.jpg";
 import { 
   Lightbulb, 
   Target, 
@@ -109,8 +114,13 @@ const Careers = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/10 via-background to-accent/10 overflow-hidden">
-        <div className="absolute inset-0 circuit-pattern opacity-5" />
+      <section className="relative py-20 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${careersHero})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-primary/80" />
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 gradient-text">
@@ -200,13 +210,34 @@ const Careers = () => {
 
             {/* Image Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-              {[1, 2, 3, 4].map((i) => (
-                <Card key={i} className="overflow-hidden">
-                  <div className="aspect-square bg-muted flex items-center justify-center">
-                    <p className="text-muted-foreground text-sm">Team Photo {i}</p>
-                  </div>
-                </Card>
-              ))}
+              <Card className="overflow-hidden hover-lift">
+                <img 
+                  src={teamRobotics} 
+                  alt="Engineers working on robotic systems" 
+                  className="w-full h-full object-cover aspect-square"
+                />
+              </Card>
+              <Card className="overflow-hidden hover-lift">
+                <img 
+                  src={teamSoftware} 
+                  alt="Software engineers developing automation solutions" 
+                  className="w-full h-full object-cover aspect-square"
+                />
+              </Card>
+              <Card className="overflow-hidden hover-lift">
+                <img 
+                  src={teamTraining} 
+                  alt="Engineering training and development session" 
+                  className="w-full h-full object-cover aspect-square"
+                />
+              </Card>
+              <Card className="overflow-hidden hover-lift">
+                <img 
+                  src={teamInstallation} 
+                  alt="On-site installation and commissioning" 
+                  className="w-full h-full object-cover aspect-square"
+                />
+              </Card>
             </div>
           </div>
         </div>
