@@ -8,6 +8,7 @@ import autoCasePackerHero from "@/assets/auto-case-packer-soft.jpg";
 import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import autoCasePacker2 from "@/assets/auto-case-packer-2.jpg";
 import autoCasePacker3 from "@/assets/auto-case-packer-3.jpg";
+import autoCasePackerOverview from "@/assets/auto-case-packer-overview.png";
 import MediaGallery from "@/components/MediaGallery";
 
 const AutoCasePacker = () => {
@@ -42,6 +43,15 @@ const AutoCasePacker = () => {
               </div>
 
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
+              
+              <div className="mb-8 rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src={autoCasePackerOverview} 
+                  alt="Auto Case Packer live production tracking dashboard" 
+                  className="w-full h-auto"
+                />
+              </div>
+
               <p className="text-lg text-muted-foreground mb-8">
                 The Mozi Tronics Auto Case Packer (ACP) is an advanced, servo-driven, end-of-line packaging system designed for high-speed, precision-controlled carton packing. Built for biscuit, noodle, and overwrap pack applications, it streamlines manual packing operations with automated collation, orientation, and carton loading mechanisms.
               </p>
