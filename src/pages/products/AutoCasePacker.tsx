@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import autoCasePackerHero from "@/assets/auto-case-packer-soft.jpg";
+import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const AutoCasePacker = () => {
@@ -140,7 +141,7 @@ const AutoCasePacker = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery images={[autoCasePacker1]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
