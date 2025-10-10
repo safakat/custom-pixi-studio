@@ -7,6 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 import dynamicConveyorsImg from "@/assets/dynamic-conveyors-soft.jpg";
 import dynamicConveyors1 from "@/assets/dynamic-conveyors-1.jpg";
 import dynamicConveyors2 from "@/assets/dynamic-conveyors-2.jpg";
+import dynamicConveyors3 from "@/assets/dynamic-conveyors-3.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const DynamicConveyors = () => {
@@ -105,7 +106,7 @@ const DynamicConveyors = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[dynamicConveyors1, dynamicConveyors2]} />
+              <MediaGallery images={[dynamicConveyors1, dynamicConveyors2, dynamicConveyors3]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
