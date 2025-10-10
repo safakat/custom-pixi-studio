@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import autoCasePackerHero from "@/assets/auto-case-packer-overview.png";
+import autoCasePackerHero from "@/assets/auto-case-packer-overview.jpg";
 import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import autoCasePacker2 from "@/assets/auto-case-packer-2.jpg";
 import autoCasePacker3 from "@/assets/auto-case-packer-3.jpg";
