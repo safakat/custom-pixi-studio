@@ -7,6 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 import autoCasePackerHero from "@/assets/auto-case-packer-soft.jpg";
 import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import autoCasePacker2 from "@/assets/auto-case-packer-2.jpg";
+import autoCasePacker3 from "@/assets/auto-case-packer-3.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const AutoCasePacker = () => {
@@ -142,7 +143,7 @@ const AutoCasePacker = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[autoCasePacker1, autoCasePacker2]} />
+              <MediaGallery images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
