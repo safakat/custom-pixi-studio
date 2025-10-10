@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import dynamicConveyorsImg from "@/assets/dynamic-conveyors-soft.jpg";
 import dynamicConveyors1 from "@/assets/dynamic-conveyors-1.jpg";
+import dynamicConveyors2 from "@/assets/dynamic-conveyors-2.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const DynamicConveyors = () => {
@@ -104,7 +105,7 @@ const DynamicConveyors = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[dynamicConveyors1]} />
+              <MediaGallery images={[dynamicConveyors1, dynamicConveyors2]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
