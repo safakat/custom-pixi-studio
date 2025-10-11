@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import checkweigherImg from "@/assets/checkweigher-soft.jpg";
+import checkweigherImg from "@/assets/checkweigher-machine.jpg";
 import checkweigher1 from "@/assets/checkweigher-1.jpg";
 import checkweigher2 from "@/assets/checkweigher-2.jpg";
 import MediaGallery from "@/components/MediaGallery";
