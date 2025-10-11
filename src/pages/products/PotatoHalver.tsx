@@ -84,7 +84,7 @@ const PotatoHalver = () => {
               {/* Media Gallery */}
               <MediaGallery 
                 images={[potatoHalver1, potatoHalver2, potatoHalver3]} 
-                videos={["/videos/potato-halver-1.mp4", "/videos/potato-halver-2.mp4"]}
+                videos={["/videos/potato-halver-1.mp4", "/videos/potato-halver-2.mp4", "/videos/potato-halver-3.mp4"]}
               />
 
               {/* CTA */}
