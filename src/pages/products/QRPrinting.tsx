@@ -105,7 +105,7 @@ const QRPrinting = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[qrPrinting1, qrPrinting2]} videos={["/videos/qr-printing-1.mp4"]} />
+              <MediaGallery images={[qrPrinting1, qrPrinting2]} videos={["/videos/qr-printing-1.mp4", "/videos/qr-printing-2.mp4"]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
