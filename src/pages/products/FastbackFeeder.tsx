@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import fastbackFeederImg from "@/assets/fastback-feeder-soft.jpg";
+import fastbackFeeder1 from "@/assets/fastback-feeder-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const FastbackFeeder = () => {
@@ -90,7 +91,7 @@ const FastbackFeeder = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery images={[fastbackFeeder1]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
