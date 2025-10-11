@@ -96,7 +96,7 @@ const FastbackFeeder = () => {
               {/* Media Gallery */}
               <MediaGallery 
                 images={[fastbackFeeder1, fastbackFeeder2, fastbackFeeder3, fastbackFeeder4]}
-                videos={["/videos/fastback-feeder-1.mp4"]}
+                videos={["/videos/fastback-feeder-1.mp4", "/videos/fastback-feeder-2.mp4"]}
               />
 
               {/* CTA */}
