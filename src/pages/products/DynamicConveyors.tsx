@@ -107,7 +107,10 @@ const DynamicConveyors = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[dynamicConveyors1, dynamicConveyors2, dynamicConveyors3, dynamicConveyors4]} />
+              <MediaGallery 
+                images={[dynamicConveyors1, dynamicConveyors2, dynamicConveyors3, dynamicConveyors4]} 
+                videos={["/videos/dynamic-conveyors-1.mp4"]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
