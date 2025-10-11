@@ -8,6 +8,7 @@ import fastbackFeederImg from "@/assets/fastback-feeder-soft.jpg";
 import fastbackFeeder1 from "@/assets/fastback-feeder-1.jpg";
 import fastbackFeeder2 from "@/assets/fastback-feeder-2.jpg";
 import fastbackFeeder3 from "@/assets/fastback-feeder-3.jpg";
+import fastbackFeeder4 from "@/assets/fastback-feeder-4.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const FastbackFeeder = () => {
@@ -93,7 +94,7 @@ const FastbackFeeder = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[fastbackFeeder1, fastbackFeeder2, fastbackFeeder3]} />
+              <MediaGallery images={[fastbackFeeder1, fastbackFeeder2, fastbackFeeder3, fastbackFeeder4]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
