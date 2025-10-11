@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import rotaryTurnerImg from "@/assets/rotary-turner-soft.jpg";
+import rotaryTurner1 from "@/assets/rotary-turner-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const RotaryTurner = () => {
@@ -84,7 +85,7 @@ const RotaryTurner = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery images={[rotaryTurner1]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
