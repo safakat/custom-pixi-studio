@@ -81,7 +81,10 @@ const PotatoHalver = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[potatoHalver1, potatoHalver2]} />
+              <MediaGallery 
+                images={[potatoHalver1, potatoHalver2]} 
+                videos={["/videos/potato-halver-1.mp4"]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
