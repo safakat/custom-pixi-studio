@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import packDiverterImg from "@/assets/pack-diverter-soft.jpg";
+import packDiverter1 from "@/assets/pack-diverter-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const PackDiverter = () => {
@@ -90,7 +91,7 @@ const PackDiverter = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery images={[packDiverter1]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
