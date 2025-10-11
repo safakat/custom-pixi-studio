@@ -7,6 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 import checkweigherImg from "@/assets/checkweigher-machine.jpg";
 import checkweigher1 from "@/assets/checkweigher-1.jpg";
 import checkweigher2 from "@/assets/checkweigher-2.jpg";
+import checkweigher3 from "@/assets/checkweigher-3.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const Checkweigher = () => {
@@ -96,7 +97,7 @@ const Checkweigher = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[checkweigher1, checkweigher2]} />
+              <MediaGallery images={[checkweigher1, checkweigher2, checkweigher3]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
