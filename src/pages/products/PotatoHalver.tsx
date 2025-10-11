@@ -7,6 +7,7 @@ import { CheckCircle2 } from "lucide-react";
 import potatoHalverImg from "@/assets/potato-halver-soft.jpg";
 import potatoHalver1 from "@/assets/potato-halver-1.jpg";
 import potatoHalver2 from "@/assets/potato-halver-2.jpg";
+import potatoHalver3 from "@/assets/potato-halver-3.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const PotatoHalver = () => {
@@ -82,7 +83,7 @@ const PotatoHalver = () => {
 
               {/* Media Gallery */}
               <MediaGallery 
-                images={[potatoHalver1, potatoHalver2]} 
+                images={[potatoHalver1, potatoHalver2, potatoHalver3]} 
                 videos={["/videos/potato-halver-1.mp4", "/videos/potato-halver-2.mp4"]}
               />
 
