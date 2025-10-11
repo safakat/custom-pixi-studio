@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import potatoHalverImg from "@/assets/potato-halver-soft.jpg";
-import potatoHalver1 from "@/assets/potato-halver-1.png";
+import potatoHalver1 from "@/assets/potato-halver-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const PotatoHalver = () => {
