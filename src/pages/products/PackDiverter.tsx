@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import packDiverterImg from "@/assets/pack-diverter-soft.jpg";
+import packDiverterOverview from "@/assets/pack-diverter-overview.jpg";
 import packDiverter1 from "@/assets/pack-diverter-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
@@ -33,7 +34,7 @@ const PackDiverter = () => {
               {/* Product Image */}
               <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
                 <img 
-                  src={packDiverterImg} 
+                  src={packDiverterOverview} 
                   alt="Automatic Pack Diverter - Intelligent product routing system" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
