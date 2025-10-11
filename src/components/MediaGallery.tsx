@@ -25,13 +25,22 @@ const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
             {displayVideos.map((video, i) => (
               <div key={i} className="aspect-video rounded-lg overflow-hidden bg-muted flex items-center justify-center border-2 border-dashed border-muted-foreground/20">
                 {video ? (
-                  <iframe
-                    src={video}
-                    className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    title={`Product video ${i + 1}`}
-                  />
+                  video.endsWith('.mp4') || video.endsWith('.webm') ? (
+                    <video
+                      src={video}
+                      className="w-full h-full object-cover"
+                      controls
+                      title={`Product video ${i + 1}`}
+                    />
+                  ) : (
+                    <iframe
+                      src={video}
+                      className="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title={`Product video ${i + 1}`}
+                    />
+                  )
                 ) : (
                   <span className="text-muted-foreground text-sm">Video {i + 1}</span>
                 )}

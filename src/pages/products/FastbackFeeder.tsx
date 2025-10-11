@@ -94,7 +94,10 @@ const FastbackFeeder = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[fastbackFeeder1, fastbackFeeder2, fastbackFeeder3, fastbackFeeder4]} />
+              <MediaGallery 
+                images={[fastbackFeeder1, fastbackFeeder2, fastbackFeeder3, fastbackFeeder4]}
+                videos={["/videos/fastback-feeder-1.mp4"]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
