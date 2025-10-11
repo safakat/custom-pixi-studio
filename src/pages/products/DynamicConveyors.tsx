@@ -109,7 +109,7 @@ const DynamicConveyors = () => {
               {/* Media Gallery */}
               <MediaGallery 
                 images={[dynamicConveyors1, dynamicConveyors2, dynamicConveyors3, dynamicConveyors4]} 
-                videos={["/videos/dynamic-conveyors-1.mp4", "/videos/dynamic-conveyors-2.mp4"]}
+                videos={["/videos/dynamic-conveyors-1.mp4", "/videos/dynamic-conveyors-2.mp4", "/videos/dynamic-conveyors-3.mp4"]}
               />
 
               {/* CTA */}
