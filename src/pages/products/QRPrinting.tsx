@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2, QrCode } from "lucide-react";
 import qrPrintingImg from "@/assets/qr-printing-soft.jpg";
+import qrPrinting1 from "@/assets/qr-printing-1.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const QRPrinting = () => {
@@ -103,7 +104,7 @@ const QRPrinting = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery images={[qrPrinting1]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
