@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import potatoHalverImg from "@/assets/potato-halver-soft.jpg";
 import potatoHalver1 from "@/assets/potato-halver-1.jpg";
+import potatoHalver2 from "@/assets/potato-halver-2.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const PotatoHalver = () => {
@@ -80,7 +81,7 @@ const PotatoHalver = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[potatoHalver1]} />
+              <MediaGallery images={[potatoHalver1, potatoHalver2]} />
 
               {/* CTA */}
               <div className="mt-12 text-center">
