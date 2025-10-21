@@ -30,6 +30,9 @@ const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
                       src={video}
                       className="w-full h-full object-cover"
                       controls
+                      controlsList="nodownload"
+                      disablePictureInPicture
+                      onContextMenu={(e) => e.preventDefault()}
                       title={`Product video ${i + 1}`}
                     />
                   ) : (
