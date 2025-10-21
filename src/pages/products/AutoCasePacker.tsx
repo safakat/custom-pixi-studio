@@ -143,7 +143,10 @@ const AutoCasePacker = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]} />
+              <MediaGallery 
+                images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]}
+                videos={["/videos/auto-case-packer-1.mp4"]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
