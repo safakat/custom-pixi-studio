@@ -145,7 +145,7 @@ const AutoCasePacker = () => {
               {/* Media Gallery */}
               <MediaGallery 
                 images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]}
-                videos={["/videos/auto-case-packer-1.mp4"]}
+                videos={["/videos/auto-case-packer-1.mp4", "/videos/auto-case-packer-2.mp4"]}
               />
 
               {/* CTA */}
