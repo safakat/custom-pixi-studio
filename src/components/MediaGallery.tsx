@@ -45,7 +45,7 @@ const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
                     />
                   )
                 ) : (
-                  <span className="text-muted-foreground text-sm">Video {i + 1}</span>
+                  <span className="text-muted-foreground text-sm text-center px-4">Automation in motion — visuals loading soon…</span>
                 )}
               </div>
             ))}
@@ -61,12 +61,16 @@ const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {displayImages.map((image, i) => (
-              <div key={i} className="aspect-square rounded-lg overflow-hidden bg-muted border-2 border-dashed border-muted-foreground/20">
-                <img
-                  src={image}
-                  alt={`Product image ${i + 1}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
+              <div key={i} className="aspect-square rounded-lg overflow-hidden bg-muted border-2 border-dashed border-muted-foreground/20 flex items-center justify-center">
+                {image === "/placeholder.svg" ? (
+                  <span className="text-muted-foreground text-sm text-center px-4">Automation in motion — visuals loading soon…</span>
+                ) : (
+                  <img
+                    src={image}
+                    alt={`Product image ${i + 1}`}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                )}
               </div>
             ))}
           </div>
