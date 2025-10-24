@@ -7,7 +7,7 @@ interface MediaGalleryProps {
 
 const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
   // Default placeholder images and videos if none provided
-  const defaultImages = Array(4).fill("/placeholder.svg");
+  const defaultImages = Array(4).fill("");
   const defaultVideos = Array(3).fill("");
   
   const displayImages = images && images.length > 0 ? images : defaultImages;
@@ -62,7 +62,7 @@ const MediaGallery = ({ images, videos }: MediaGalleryProps) => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {displayImages.map((image, i) => (
               <div key={i} className="aspect-square rounded-lg overflow-hidden bg-muted border-2 border-dashed border-muted-foreground/20 flex items-center justify-center">
-                {image === "/placeholder.svg" ? (
+                {!image ? (
                   <span className="text-muted-foreground text-sm text-center px-4">Automation in motion — visuals loading soon…</span>
                 ) : (
                   <img
