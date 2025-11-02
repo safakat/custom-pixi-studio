@@ -5,6 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import roboticPalletizerImg from "@/assets/robotic-palletizer-soft.jpg";
+import roboticPalletizer1 from "@/assets/robotic-palletizer-1.jpg";
+import roboticPalletizer2 from "@/assets/robotic-palletizer-2.jpg";
+import roboticPalletizer3 from "@/assets/robotic-palletizer-3.jpg";
+import roboticPalletizer4 from "@/assets/robotic-palletizer-4.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const RoboticPalletizer = () => {
@@ -163,7 +167,9 @@ const RoboticPalletizer = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery 
+                images={[roboticPalletizer1, roboticPalletizer2, roboticPalletizer3, roboticPalletizer4]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
