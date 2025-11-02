@@ -8,6 +8,7 @@ import autoCasePackerHero from "@/assets/auto-case-packer-overview.jpg";
 import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import autoCasePacker2 from "@/assets/auto-case-packer-2.jpg";
 import autoCasePacker3 from "@/assets/auto-case-packer-3.jpg";
+import autoCasePacker4 from "@/assets/auto-case-packer-4.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const AutoCasePacker = () => {
@@ -144,7 +145,7 @@ const AutoCasePacker = () => {
 
               {/* Media Gallery */}
               <MediaGallery 
-                images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]}
+                images={[autoCasePacker1, autoCasePacker2, autoCasePacker3, autoCasePacker4]}
                 videos={["/videos/auto-case-packer-1.mp4", "/videos/auto-case-packer-2.mp4", "/videos/auto-case-packer-3.mp4"]}
               />
 
