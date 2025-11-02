@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
-import roboticPalletizerImg from "@/assets/robotic-palletizer-soft.jpg";
+import roboticPalletizerImg from "@/assets/robotic-palletizer-hero.jpg";
 import roboticPalletizer1 from "@/assets/robotic-palletizer-1.jpg";
 import roboticPalletizer2 from "@/assets/robotic-palletizer-2.jpg";
 import roboticPalletizer3 from "@/assets/robotic-palletizer-3.jpg";
@@ -34,11 +34,11 @@ const RoboticPalletizer = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {/* Product Image */}
-              <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
+              <div className="h-[600px] rounded-lg overflow-hidden mb-8 shadow-xl group">
                 <img 
                   src={roboticPalletizerImg} 
                   alt="Robotic Gantry Palletizer - Advanced automated palletizing system" 
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
