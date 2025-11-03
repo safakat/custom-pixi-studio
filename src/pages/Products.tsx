@@ -57,8 +57,8 @@ const Products = () => {
       image: potatoHalverImg
     },
     {
-      title: "Automatic Pack Diverter",
-      description: "Intelligent pack redirection system",
+      title: "Automatic Box Diverter",
+      description: "Intelligent box redirection system",
       path: "/products/pack-diverter",
       specs: "High-speed actuation | Servo/pneumatic",
       image: packDiverterImg

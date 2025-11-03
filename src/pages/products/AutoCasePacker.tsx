@@ -8,6 +8,7 @@ import autoCasePackerHero from "@/assets/auto-case-packer-overview.jpg";
 import autoCasePacker1 from "@/assets/auto-case-packer-1.jpg";
 import autoCasePacker2 from "@/assets/auto-case-packer-2.jpg";
 import autoCasePacker3 from "@/assets/auto-case-packer-3.jpg";
+import autoCasePacker4 from "@/assets/auto-case-packer-4.jpg";
 import MediaGallery from "@/components/MediaGallery";
 
 const AutoCasePacker = () => {
@@ -132,18 +133,21 @@ const AutoCasePacker = () => {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2">
                       <div className="h-2 w-2 bg-primary rounded-full" />
-                      Biscuit packs (single / overwrap)
+                      Biscuit Packs (Single / Overwrap)
                     </li>
                     <li className="flex items-center gap-2">
                       <div className="h-2 w-2 bg-primary rounded-full" />
-                      Noodle chain packs (Laddi)/Single Packs
+                      Noodle Chain Packs (Laddi)
                     </li>
                   </ul>
                 </CardContent>
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[autoCasePacker1, autoCasePacker2, autoCasePacker3]} />
+              <MediaGallery 
+                images={[autoCasePacker1, autoCasePacker2, autoCasePacker3, autoCasePacker4]}
+                videos={["/videos/auto-case-packer-1.mp4", "/videos/auto-case-packer-2.mp4", "/videos/auto-case-packer-3.mp4"]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">

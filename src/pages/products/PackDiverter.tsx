@@ -19,7 +19,7 @@ const PackDiverter = () => {
         <section className="bg-gradient-to-r from-primary to-accent py-20">
           <div className="container mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
-              Automatic Pack Diverter
+              Automatic Box Diverter
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-3xl">
               Intelligent Product Routing for Dynamic Production Lines
@@ -35,14 +35,14 @@ const PackDiverter = () => {
               <div className="h-96 rounded-lg overflow-hidden mb-8 shadow-xl group">
                 <img 
                   src={packDiverterOverview} 
-                  alt="Automatic Pack Diverter - Intelligent product routing system" 
+                  alt="Automatic Box Diverter - Intelligent product routing system" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
               <h2 className="text-3xl font-bold mb-6">Overview</h2>
               <p className="text-lg text-muted-foreground mb-8">
-                The Automatic Pack Diverter intelligently redirects packaging line products between conveyors or multiple processing machines without human intervention. It is vital for dynamic, high-throughput lines requiring flexible pack distribution.
+                The Automatic Box Diverter intelligently redirects packaging line products between conveyors or multiple processing machines without human intervention. It is vital for dynamic, high-throughput lines requiring flexible box distribution.
               </p>
 
               {/* Features */}
@@ -60,7 +60,7 @@ const PackDiverter = () => {
                     </div>
                     <div className="flex items-start space-x-3">
                       <CheckCircle2 className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
-                      <span>Photoelectric sensors for pack detection</span>
+                      <span>Photoelectric sensors for box detection</span>
                     </div>
                     <div className="flex items-start space-x-3">
                       <CheckCircle2 className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
@@ -92,7 +92,14 @@ const PackDiverter = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[packDiverter1]} />
+              <MediaGallery 
+                images={[packDiverter1]}
+                videos={[
+                  "/videos/pack-diverter-1.mp4",
+                  "/videos/pack-diverter-2.mp4",
+                  "/videos/pack-diverter-3.mp4"
+                ]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
