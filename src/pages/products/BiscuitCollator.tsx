@@ -90,7 +90,13 @@ const BiscuitCollator = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery />
+              <MediaGallery 
+                videos={[
+                  "/videos/biscuit-collator-1.mp4",
+                  "/videos/biscuit-collator-2.mp4",
+                  "/videos/biscuit-collator-3.mp4"
+                ]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
