@@ -21,7 +21,7 @@ const Header = () => {
     { name: "Dynamic Conveyors", path: "/products/dynamic-conveyors" },
     { name: "Fastback Vibratory Feeder", path: "/products/fastback-feeder" },
     { name: "Potato Auto Halver", path: "/products/potato-halver" },
-    { name: "Automatic Pack Diverter", path: "/products/pack-diverter" },
+    { name: "Automatic Box Diverter", path: "/products/pack-diverter" },
     { name: "Rotary Disc Turner", path: "/products/rotary-turner" },
     { name: "Control Cards", path: "/products/control-cards" },
     { name: "QR Printing Solutions", path: "/products/qr-printing" },
