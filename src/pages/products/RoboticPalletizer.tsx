@@ -169,6 +169,11 @@ const RoboticPalletizer = () => {
               {/* Media Gallery */}
               <MediaGallery 
                 images={[roboticPalletizer1, roboticPalletizer2, roboticPalletizer3, roboticPalletizer4]}
+                videos={[
+                  "/videos/robotic-palletizer-1.mp4",
+                  "/videos/robotic-palletizer-2.mp4",
+                  "/videos/robotic-palletizer-3.mp4"
+                ]}
               />
 
               {/* CTA */}
