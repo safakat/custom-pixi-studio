@@ -92,7 +92,14 @@ const PackDiverter = () => {
               </Card>
 
               {/* Media Gallery */}
-              <MediaGallery images={[packDiverter1]} />
+              <MediaGallery 
+                images={[packDiverter1]}
+                videos={[
+                  "/videos/pack-diverter-1.mp4",
+                  "/videos/pack-diverter-2.mp4",
+                  "/videos/pack-diverter-3.mp4"
+                ]}
+              />
 
               {/* CTA */}
               <div className="mt-12 text-center">
